@@ -26,3 +26,31 @@ I was work there for 1 year, I decided that I wanted to try to create something 
 At the moment, my partner and I have stopped working, I was left without work and made a decision for myself that I would become a front-end developer and do some cool projects on my own, especially since I have these ideas in my head.
 
 ---
+
+## Skills
+
+- HTML
+- CSS
+- JavsScritp (a bit)
+- WordPress
+- Bootstrap 5
+
+---
+
+## My code example
+
+[Recursion #2 - Fibonacci](https://www.codewars.com/kata/569512b7707bc1b88200002f/javascript)
+
+```
+const fibonacci = n => {
+  if (n === 0) {
+    return 0;
+  } else if (n == 1) {
+    return 1;
+  } else {
+    return fibonacci(n-1) + fibonacci(n-2);
+  }
+};
+```
+
+---

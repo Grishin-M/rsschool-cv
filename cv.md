@@ -54,3 +54,37 @@ const fibonacci = n => {
 ```
 
 ---
+
+## Work experience
+
+As a junior developer, I had no experience, but here are the projects that I implemented on Wordpress.
+
+1. Merchandising services – https://vmcretail.com/
+2. Landing page for children dance studio – https://tancevai.ru/
+3. E-store for Dancewear – https://dancia.ru/
+4. Landing page for accounting services – https://youbuh.com/
+5. Official e-store of the manufacturer knife sharpeners – https://tochilkazhuk.ru/
+
+---
+
+## Education
+
+_Moscow Financial and Industrial University "Synergy"_
+
+**2018 – Applied Informatics**
+
+**2016 – Information systems and technologies**
+
+**2014 – Information systems**
+
+---
+
+## English language
+
+### Level of English - Upper Intermediate
+
+I had language practice in 2017 when I was in the USA by the program Work and Travel.
+
+When I was in the USA, I worked as a cook in a restaurant "ThatPlaceInOgunquit" and a cook in a bakery "Bread and Roses". I was live in Ogunquit, state of Maine.
+
+When the work contract ended, I rented a car and started to my trip along USA

@@ -1,0 +1,22 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 25px 0;
+}
+hr {
+  margin-top: 25px;
+}
+p {
+  margin: 15px 0;
+}
+img {
+  margin-top: 50px;
+}

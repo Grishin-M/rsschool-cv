@@ -1,92 +1,175 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>RSSchool CV</title>
+  <link type="image/x-icon" rel="shortcut icon" href=".img/favicon.ico">
+  <link type="image/png" sizes="16x16" rel="icon" href=".img/favicon-16x16.png">
+  <link type="image/png" sizes="32x32" rel="icon" href=".img/favicon-32x32.png">
+  <link rel="stylesheet" href="./normalize.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <img src="./img/cv-photo.jpg" alt="cv-photo" width="350">
-  <h1>Mikhail Grishin</h1>
-  <hr>
-  <h2>Contacts</h2>
-  <ul>
-    <li>Phone: <a href="tel:+79055006003">+7 (905) 500-60-03</a></li>
-    <li>Email: <a href="mailto:wopolebereza@gmail.com?subject=Question about CV">wopolebereza@gmail.com</a></li>
-    <li>Telegram: <a href="https://msng.link/o/?@Grishin_M=tg" rel="nofollow">@Grishin_m</a></li>
-    <li>Dicsord: Mikhail Grishin (@Grishin-M)</li>
-  </ul>
-  <hr>
-  <h2>About me</h2>
-  <p>When I was at university, I was interested in website development. I studied HTML/CSS, but JS i wasn't learn it, as
-    it seemed to me very difficult and incomprehensible.</p>
-  <p>While studying at the university, I found company that was developing websites, and they were hiring me, but I had
-    the position of an account manager. without knowledge of JS, I was not hired for the position of a junior front-end
-    developer. After working there for some time, I quit and got a job in the same position, but in a smaller company.
-  </p>
-  <p>In 2016-2017, I set myself the goal of learning English and flying to the USA by the program Work and Travel.</p>
-  <p>In the summer of 2017, I successfully flew to the USA, returned to Russia in the fall, got a job as a project
-    manager in a company that developed landingpage for WordPress.</p>
-  <p>I was work there for 1 year, I decided that I wanted to try to create something of my own. I found a partner and we
-    were start developing sites by WordPress. But it was more like a constructor than a development.</p>
-  <p>At the moment, my partner and I have stopped working, I was left without work and made a decision for myself that I
-    would become a front-end developer and do some cool projects on my own, especially since I have these ideas in my
-    head.</p>
-  <hr>
-  <h2>Skills</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-    <li>WordPress</li>
-    <li>Bootstrap 5</li>
-  </ul>
-  <hr>
-  <h2>My code example</h2>
-  <a href="https://www.codewars.com/kata/569512b7707bc1b88200002f/javascript">Recursion #2 - Fibonacci</a>
-  <br><br>
-  <pre>
-    const fibonacci = n => {
-    if (n === 0) {
-    return 0;
-    } else if (n == 1) {
-    return 1;
-    } else {
-    return fibonacci(n-1) + fibonacci(n-2);
-    }
-    };
-  </pre>
-  <hr>
-  <h2>Work experience</h2>
-  <p>As a junior developer, I had no experience, but here are the projects that I implemented on Wordpress.</p>
-  <ol>
-    <li>Merchandising services – <a href="https://vmcretail.com/">https://vmcretail.com/</a></li>
-    <li>Landing page for children dance studio – <a href="https://tancevai.ru/">https://tancevai.ru/</a></li>
-    <li>E-store for Dancewear – <a href="https://dancia.ru/">https://dancia.ru/</a></li>
-    <li>Landing page for accounting services – <a href="https://youbuh.com/">https://youbuh.com/</a></li>
-    <li>Official e-store of the manufacturer knife sharpeners – <a
-        href="https://tochilkazhuk.ru/">https://tochilkazhuk.ru/</a></li>
-  </ol>
-  <hr>
-  <h2>Education</h2>
-  <i>Moscow Financial and Industrial University "Synergy"</i>
-  <strong>2018 – Applied Informatics</strong>
-  <strong>2016 – Information systems and technologies</strong>
-  <strong>2014 – Information systems</strong>
-  <hr>
-  <h2>English language</h2>
-  <h3>Level of English - Upper Intermediate</h3>
-  <p>I had language practice in 2017 when I was in the USA by the program Work and Travel.</p>
-  <p>When I was in the USA, I worked as a cook in a restaurant "ThatPlaceInOgunquit" and a cook in a bakery "Bread and
-    Roses". I was live in Ogunquit, state of Maine.</p>
-  <p>When the work contract ended, I rented a car and started to my trip along USA.</p>
+  <div class="main-wrap">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-wrap">
+          <li class="nav-container"><a href="#anchore-about">About me</a></li>
+          <li class="nav-container"><a href="#anchore-education">Education</a></li>
+          <li class="nav-container"><a href="#anchore-skills">Skills</a></li>
+          <li class="nav-container"><a href="#anchore-work">Work Expirience</a></li>
+          <li class="nav-container"><a href="#anchore-contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="content content-aside">
+        <div class="cv-photo">
+          <img src="./img/cv-photo.png" width="300" alt="CV-photo">
+        </div>
+        <section class="contacts" id="anchore-contacts">
+          <div class="chapters">
+            <h2>Contacts</h2>
+          </div>
+          <ul class="contacts-wrap">
+            <li class="contacts-container contacts-tg-link"><a href="https://t.me/Grishin_M">t.me/Grishin_M</a></li>
+            <li class="contacts-container contacts-vk-link"><a href="https://vk.com/grishinm">vk.com/grishinm</a>
+            </li>
+            <li class="contacts-container contacts-tel-link"><a href="tel:+79055006003">+7 (905) 500-60-03</a>
+            </li>
+            <li class="contacts-container contacts-mail-link"><a
+                href="mailto:wopolebereza@gmail.com">wopolebereza@gmail.com</a></li>
+            <li class="contacts-container contacts-git-link"><a
+                href="https://github.com/Grishin-M">github.com/Grishin-M</a></li>
+            <li class="contacts-container contacts-location-link">Russia, Moscow</li>
+          </ul>
+        </section>
+        <section class="education" id="anchore-education">
+          <div class="chapters">
+            <h2>Education</h2>
+          </div>
+          <h3><i>Moscow Financial and Industrial University &#171;Synergy&#187;</i></h3>
+          <div class="date education-date"><span>2016 &#8212; 2018</span></div>
+          <p class="education-department">
+            &#8212;<b> Applied Informatics</b></p>
+          <div class="date education-date"><span>2012 &#8212; 2016</span></div>
+          <p class="education-department">
+            &#8212;<b> Information systems and technologies</b></p>
+          <div class="date education-date"><span>2010 &#8212; 2014</span></div>
+          <p class="education-department">
+            &#8212;<b> Information systems</b></p>
+        </section>
+        <section class="skills" id="anchore-skills">
+          <div class="chapters">
+            <h2>Skills</h2>
+          </div>
+          <ul class="skills-wrap">
+            <li class="skills-container skills-container-js">&#8211; JavaScript</li>
+            <li class="skills-container skills-container-html">&#8211; HTML</li>
+            <li class="skills-container skills-container-css">&#8211; CSS</li>
+            <li class="skills-container skills-container-bootstrap">&#8211; Bootstrap 5</li>
+            <li class="skills-container skills-container-git">&#8211; Git</li>
+            <li class="skills-container skills-container-wp">&#8211; WordPress</li>
+          </ul>
+        </section>
+        <section class="foreign-language">
+          <div class="chapters">
+            <h2>Foreign languages</h2>
+          </div>
+          <ul class="languages-wrap">
+            <li class="languages-container">English &#8212; Upper Intermediate (B2)</li>
+          </ul>
+        </section>
+      </div>
+      <div class="content">
+        <section class="cv-title">
+          <h1>Grishin Mikhail</h1>
+          <h3>Junior Frontend Developer</h3>
+        </section>
+        <section class="about-me" id="anchore-about">
+          <div class="chapters">
+            <h2>About me</h2>
+          </div>
+          <p>When I was at university, I was interested in website development. I studied HTML/CSS, but JS i wasn't
+            learn
+            it, as
+            it seemed to me very difficult and incomprehensible.</p>
+          <p>While studying at the university, I found company that was developing websites, and they were hiring me,
+            but
+            I had
+            the position of an account manager. without knowledge of JS, I was not hired for the position of a junior
+            front-end
+            developer. After working there for some time, I quit and got a job in the same position, but in a smaller
+            company.
+          </p>
+          <p>In 2016-2017, I set myself the goal of learning English and flying to the USA by the program Work and
+            Travel.
+          </p>
+          <p>In the summer of 2017, I successfully flew to the USA, returned to Russia in the fall, got a job as a
+            project
+            manager in a company that developed landingpage for WordPress.</p>
+          <p>I was work there for 1 year, I decided that I wanted to try to create something of my own. I found a
+            partner
+            and we
+            were start developing sites by WordPress. But it was more like a constructor than a development.</p>
+          <p>At the moment, my partner and I have stopped working, I was left without work and made a decision for
+            myself
+            that I
+            would become a front-end developer and do some cool projects on my own, especially since I have these ideas
+            in
+            my
+            head.</p>
+        </section>
+        <section class="work-expirience" id="anchore-work">
+          <div class="chapters">
+            <h2>Work Expirience</h2>
+          </div>
+          <p>As a junior developer, I had no experience, but here are the projects that I implemented on Wordpress.</p>
+          <ol>
+            <li>Merchandising services &#8212; <a href="https://vmcretail.com/">vmcretail.com</a></li>
+            <li>Landing page for children dance studio &#8212; <a href="https://tancevai.ru/">tancevai.ru</a>
+            </li>
+            <li>E-store for Dancewear &#8212; <a href="https://dancia.ru/">dancia.ru</a></li>
+            <li>Landing page for accounting services &#8212; <a href="https://youbuh.com/">youbuh.com</a></li>
+            <li>Official e-store of the manufacturer knife sharpeners &#8212; <a
+                href="https://tochilkazhuk.ru/">tochilkazhuk.ru</a></li>
+          </ol>
+        </section>
+        <section class="code-example">
+          <div class="chapters">
+            <h2>My code example</h2>
+          </div>
+          <h3><a href="https://www.codewars.com/kata/569512b7707bc1b88200002f/javascript">Recursion #2 - Fibonacci</a>
+          </h3>
+          <pre>
+          const fibonacci = n => {
+          if (n === 0) {
+          return 0;
+          } else if (n == 1) {
+          return 1;
+          } else {
+          return fibonacci(n-1) + fibonacci(n-2);
+          }
+          };
+        </pre>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="https://github.com/Grishin-M"><img src="./img/github-64.png" alt="github-link"></a>
+      <span>Created in 2022</span>
+      <a href="https://rs.school/js/"><img src="./img/rs_school_js.svg" width="160" alt="rs_school-link"></a>
+    </footer>
+  </div>
 </body>
 
 </html>

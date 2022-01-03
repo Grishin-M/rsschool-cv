@@ -1,0 +1,169 @@
+* {
+  font-family: "Ubuntu", sans-serif;
+  color: #161a1d;
+}
+h1,
+h3 {
+  color: #454b73;
+}
+p {
+  line-height: 1.5em;
+}
+
+ul li,
+ol li {
+  margin: 0 0 20px 0;
+}
+.chapters {
+  display: flex;
+}
+.chapters h2 {
+  padding: 6px 15px;
+  border: 1px solid #454b73;
+  color: #454b73;
+  /* background: #dce2f2; */
+  position: relative;
+}
+.chapters h2::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  bottom: 2px;
+  border: 35px solid transparent;
+  border-left: 3em solid #fbd6d7;
+  border-top: 0px solid #fbd6d7;
+  z-index: -1;
+}
+.cv-photo {
+  position: relative;
+}
+.cv-photo::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border: 18em solid transparent;
+  border-left: 27em solid #dce2f2;
+  border-top: 0px solid #dce2f2;
+  z-index: -1;
+}
+.main-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.content {
+  width: 60%;
+  /* background-color: #457b9d; */
+  /* background-color: #d3d3d3; */
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+}
+.content-aside {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+  /* background-color: #1d3557; */
+  background-color: #f5f3f4;
+  z-index: 0;
+}
+
+.nav-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.nav-container {
+  font-weight: 500;
+}
+.nav-container a:hover,
+.work-expirience a:hover {
+  color: #fbd6d7;
+}
+.work-expirience a {
+  font-weight: 700;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.cv-photo {
+  display: flex;
+  justify-content: center;
+}
+.education-date {
+  display: flex;
+}
+.education-date span {
+  background-color: #dce2f2;
+  padding: 4px 16px;
+}
+
+.skills-wrap,
+.contacts-wrap {
+  padding: 0;
+}
+
+.skills-container,
+.contacts-container {
+  padding-left: 50px;
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: left center;
+  list-style: none;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  z-index: 3;
+}
+
+.skills-container-js {
+  background-image: url(./img/javascript.svg);
+}
+.skills-container-html {
+  background-image: url(./img/html.svg);
+}
+.skills-container-css {
+  background-image: url(./img/css.svg);
+}
+.skills-container-bootstrap {
+  background-image: url(./img/bootstrap.svg);
+}
+.skills-container-git {
+  background-image: url(./img/github.svg);
+}
+.skills-container-wp {
+  background-image: url(./img/wordpress.svg);
+}
+.contacts-tg-link {
+  background-image: url(./img/telegram.svg);
+}
+.contacts-vk-link {
+  background-image: url(./img/vk.svg);
+}
+.contacts-tel-link {
+  background-image: url(./img/phone.svg);
+}
+.contacts-mail-link {
+  background-image: url(./img/email.svg);
+}
+.contacts-git-link {
+  background-image: url(./img/github.svg);
+}
+.contacts-location-link {
+  background-image: url(./img/location.svg);
+}
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 25px;
+}
